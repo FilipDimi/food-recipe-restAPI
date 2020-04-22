@@ -7,4 +7,4 @@ def add(x, y):
 
 def subtract(x, y): 
     """Subtract two numbers together"""
-    return y   - x
+    return y - x
