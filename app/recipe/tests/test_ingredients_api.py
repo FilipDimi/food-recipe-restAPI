@@ -46,10 +46,9 @@ class PrivateIngredientsApiTest(TestCase):
 
         ingredients = Ingredient.objects.all().order_by('-name')
         serializer = IngredientSerializer(ingredients, many=True)
-        
+
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(res.data, serializer.data)
-
 
     def test_ingredients_limited_to_user(self):
         """Test that  ingredients for the auth user are returned"""
