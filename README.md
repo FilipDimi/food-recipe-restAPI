@@ -1,2 +1,2 @@
 # recipe-app-api
-Recipe app API source code.
+RestAPI for a food recipe app. The project is built in Django, Django Rest Framework, PostgreSQL, Docker, Travis CI & TDD environment.
